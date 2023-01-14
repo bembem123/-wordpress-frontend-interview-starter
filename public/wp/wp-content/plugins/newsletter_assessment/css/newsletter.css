@@ -1,0 +1,56 @@
+.newsletter-modal{
+  background-color:#1a1934c7;
+  position: fixed;
+  width:100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: none;
+}
+.newsletter-modal .newsletter-modal-content{
+  background-color: #fff;
+  max-width: 438px;
+  min-height: 140px;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+  padding: 2rem;
+}
+.newsletter-modal .newsletter-modal-content h3{
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  font-size: 23px;
+  margin-bottom:2rem;
+  margin-top: 0;
+}
+.newsletter-modal .newsletter-modal-content h3:before {
+  content: "";
+  position: absolute;
+  border-bottom: 4px solid red;
+  width: 34px;
+  height: 25px;
+}
+.newsletter-modal .newsletter-modal-content button {
+  background: #eb494b;
+  color: #fff;
+  font-weight: bold;
+  width: 100%;
+  padding: 17px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.newsletter-modal .newsletter-modal-content input {
+  width: 92%;
+  padding: 17px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+  outline:none;
+}
