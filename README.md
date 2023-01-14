@@ -2,7 +2,7 @@
 
 This is a WordPress starter project for use with Composer. I'll add more documentation when I can, but it's based heavily off of Mark Jaquith's [WordPress Skeleton](https://github.com/markjaquith/WordPress-Skeleton) project. To get started using it, just use the `create-project` composer command:
 
-Upload your database located in wordpress-frontend-interview-starter\public\newsletter_db.sql
+Upload your database located in -wordpress-frontend-interview-starter/public/wp/database/newsletter_db.sql
 
 Login Credentials:
     username:admin
