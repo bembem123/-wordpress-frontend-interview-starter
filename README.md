@@ -5,7 +5,9 @@ This is a WordPress starter project for use with Composer. I'll add more documen
 Upload your database located in -wordpress-frontend-interview-starter/public/wp/database/newsletter_db.sql
 
 Login Credentials:
+
     username:admin
+    
     password:admin
 
 ```
